@@ -42,6 +42,7 @@ select{
     font-weight: 700;
     font-size: 16px;
     color: #555555;
+    cursor: pointer;
 }
 input{
     font-weight: 700;
@@ -53,9 +54,44 @@ input{
 }
 
 button{
-
+    background-color: #772FD3;
+    height: 48px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-top: 48px;
+    margin-top: 28px;
 }
 
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.6;
+}
 .logo-real{
     width: 80px;
+}
+
+section{
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.arrow{
+    margin: 15px 0;
+}
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
 }

@@ -3,18 +3,59 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    background-color: rgb(138, 81, 252);
+    outline: none;
+
 }
+
 body{
     background-color:rgb(138, 81, 252) ;
 }
+
 .logo{
     width: 300px;
-    margin-left: 22px;
+    display: block;
+    margin: 20px  auto;
 }
+
 main{
     width: 375px;
     background-color: #F4F4F4;
     border-radius: 20PX;
+    margin: 0 auto;
+    padding: 38px 24px 23px;
+}
 
+label{
+color: #777777;
+font-weight: 700;
+font-size: 14px;
+}
+
+select{
+    background-color: #FFFFFF;
+    height: 48px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+}
+input{
+    font-weight: 700;
+    font-size: 16px;
+    height: 48px;
+    width:100%;
+    color: #777777;
+    font-weight: 700;
+}
+
+button{
+
+}
+
+.logo-real{
+    width: 80px;
 }

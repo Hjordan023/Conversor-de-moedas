@@ -12,9 +12,11 @@ body{
 }
 
 .logo{
-    width: 300px;
+    width: 500px;
     display: block;
-    margin: 20px  auto;
+    margin:   auto;
+    margin-bottom: -100px;
+    margin-top: -85px;
 }
 
 main{
@@ -23,6 +25,7 @@ main{
     border-radius: 20PX;
     margin: 0 auto;
     padding: 38px 24px 23px;
+    margin-bottom: 40px;
 }
 
 label{
@@ -95,7 +98,7 @@ section{
     align-items: center;
     gap: 4px;
 }
-.currency{
+.currency, .currency-value-to-converter, .currency-value{
     color: #555555;
     font-size:20px;
     font-weight: 700;
